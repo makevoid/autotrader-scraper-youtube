@@ -13,6 +13,7 @@ API_HOST = "https://www.autotrader.co.uk"
 API_PATH = "/results-car-search"
 
 def build_params(page:)
+  # NOTE: De-hardcode make, year, postcode, and distance into external parameters loaded from a YAML config
   make = "TOYOTA"
   year = 2016
   postcode = "E145AB"
